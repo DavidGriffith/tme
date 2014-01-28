@@ -1,1 +1,15 @@
-A README will appear here.
+The Machine Emulator, or tme, provides a general-purpose framework for 
+computer emulation. The goal is to create a large library of modules, 
+each emulating a specific computer chip, or bus, or board, etc. These 
+modules offer standard interfaces that allow you to connect them 
+together to create a whole machine emulation with a minimum of effort.
+
+While these assembled machine emulations will likely never be as fast as 
+a single program designed from the beginning to emulate a specific 
+machine, the standard module interfaces should be reasonably fast. Even 
+though the best abstract interfaces still introduce overhead and can't 
+always express certain optimization hints, reusability will always save 
+a lot of development time, and performance problems can be addressed by 
+faster hardware.
+
+Matt Fredette
